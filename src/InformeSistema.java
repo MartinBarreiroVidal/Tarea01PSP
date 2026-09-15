@@ -13,6 +13,7 @@ public class InformeSistema {
         System.out.println(memoriaLibre);
         System.out.println(memoriaTotal);
 
+
     }
 
 }
