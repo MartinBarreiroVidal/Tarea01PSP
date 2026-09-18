@@ -28,7 +28,7 @@ public class InformeSistema {
         System.out.println("Máxima (-Xmx): " + memoriaMax + " MiB");
         System.out.println("");
 
-        //Reservado 64 MiB, la JVM reserva ese espacio en la memoria RAM para guardar datos
+        //Reservado 64 MiB, la JVM reserva ese e                                spacio en la memoria RAM para guardar datos
         long[] reservado = new long[8 * 1024 * 1024];
         long memoriaMax2 = Runtime.getRuntime().maxMemory() / bytesEnMiB;
         long memoriaTotal2 = Runtime.getRuntime().totalMemory() / bytesEnMiB;
@@ -94,25 +94,14 @@ public class InformeSistema {
         System.out.println("");
 
         System.out.println("--- PROCESO EN ESPERA ---");
-        System.out.println("Buscame desde otra terminal con :");
+        System.out.println("Buscame desde otra terminal con:");
         System.out.println("ps -ef | grep InformeSistema");
         System.out.println("");
         System.out.println("Pulsa INTRO para terminar...");
-        System.out.println("Fin del programa");
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        scanner.nextLine();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println("Fin del programa.");
 
     }
 }
