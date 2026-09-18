@@ -102,6 +102,5 @@ public class InformeSistema {
         scanner.nextLine();
 
         System.out.println("Fin del programa.");
-
     }
 }
